@@ -1,6 +1,5 @@
 # Adaptive Time Series Data Compression Using Deep Learning and Statistical Entropy Optimization
 
-## Documentation
 
 ---
 
