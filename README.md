@@ -733,6 +733,3 @@ plt.plot(activations[0])
 
 ---
 
-**Last Updated**: November 2025  
-**Version**: 1.0.0  
-**Compatibility**: Python 3.8+, TensorFlow 2.10+
