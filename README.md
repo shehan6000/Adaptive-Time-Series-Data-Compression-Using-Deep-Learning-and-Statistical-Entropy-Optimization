@@ -1,23 +1,7 @@
 # Adaptive Time Series Data Compression Using Deep Learning and Statistical Entropy Optimization
 
 
----
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [System Architecture](#system-architecture)
-3. [Installation and Setup](#installation-and-setup)
-4. [Core Components](#core-components)
-5. [Usage Guide](#usage-guide)
-6. [API Reference](#api-reference)
-7. [Algorithm Details](#algorithm-details)
-8. [Performance Metrics](#performance-metrics)
-9. [Customization Options](#customization-options)
-10. [Troubleshooting](#troubleshooting)
-11. [References and Theory](#references-and-theory)
-
----
 
 ## Overview
 
@@ -742,95 +726,10 @@ activations = intermediate_model.predict(X_test[0:1])
 plt.plot(activations[0])
 ```
 
----
 
-## References and Theory
 
-### Theoretical Foundation
 
-#### 1. Information Theory
 
-**Shannon Entropy**:
-- Measures average information content
-- Higher entropy = more unpredictable data
-- Theoretical compression limit: H(X) bits per symbol
-
-**Rate-Distortion Theory**:
-- Trade-off between compression rate and distortion
-- R(D) = min I(X;X̂) subject to E[d(X,X̂)] ≤ D
-
-#### 2. Deep Learning for Compression
-
-**Autoencoders**:
-- Unsupervised learning of compact representations
-- Bottleneck forces dimensionality reduction
-- Non-linear transformations capture complex patterns
-
-**LSTM Networks**:
-- Long Short-Term Memory units
-- Solves vanishing gradient problem
-- Captures long-range dependencies in sequences
-
-#### 3. Time Series Analysis
-
-**Temporal Dependencies**:
-- Autocorrelation in adjacent points
-- Seasonal patterns and trends
-- Noise vs. signal separation
-
-### Related Algorithms
-
-1. **Huffman Coding**: Lossless, entropy-based
-2. **Wavelet Transform**: Multi-resolution analysis
-3. **Discrete Cosine Transform (DCT)**: Frequency domain
-4. **Predictive Coding**: Encode prediction residuals
-5. **Vector Quantization**: Codebook-based compression
-
-### Academic References
-
-1. Hinton, G. & Salakhutdinov, R. (2006). "Reducing the Dimensionality of Data with Neural Networks"
-2. Hochreiter, S. & Schmidhuber, J. (1997). "Long Short-Term Memory"
-3. Shannon, C. (1948). "A Mathematical Theory of Communication"
-4. Ballé, J. et al. (2018). "Variational Image Compression with a Scale Hyperprior"
-
-### Mathematical Notation
-
-- **x**: Original time series
-- **x̂**: Reconstructed time series
-- **z**: Latent representation
-- **h**: Hidden state
-- **θ**: Model parameters
-- **L**: Sequence length
-- **d**: Encoding dimension
-- **H(X)**: Shannon entropy
-
----
-
-## License and Citation
-
-### License
-This implementation is provided for educational and research purposes.
-
-### Citation
-If you use this code in your research, please cite:
-
-```bibtex
-@software{adaptive_ts_compression,
-  title={Adaptive Time Series Data Compression Using Deep Learning},
-  author={Your Name},
-  year={2025},
-  url={https://github.com/yourusername/ts-compression}
-}
-```
-
----
-
-## Contact and Support
-
-For questions, issues, or contributions:
-- GitHub Issues: [your-repo/issues]
-- Email: [your-email@domain.com]
-- Documentation: [your-docs-url]
 
 ---
 
